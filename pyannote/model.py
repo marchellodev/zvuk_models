@@ -9,9 +9,9 @@ class DiarizePyannote:
         return
 
     def setup(self):
-        self.emb = Model.from_pretrained("pyannote/wespeaker-voxceleb-resnet34-LM.bin")
+        self.emb = Model.from_pretrained("files/wespeaker-voxceleb-resnet34-LM.bin")
         self.segmentation = Model.from_pretrained(
-            "pyannote/pyannote-segmentation-3.0.bin"
+            "files/pyannote-segmentation-3.0.bin"
         )
 
         pipeline = SpeakerDiarization(self.segmentation, embedding=self.emb).to(

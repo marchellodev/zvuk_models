@@ -1,0 +1,12 @@
+name: pyannote
+
+files:
+  - destination: files/pyannote-segmentation-3.0.bin
+    source: https://huggingface.co/pyannote/segmentation-3.0/resolve/main/pytorch_model.bin?download=true
+    type: url
+    size: 5.91
+
+  - destination: files/wespeaker-voxceleb-resnet34-LM.bin
+    source: https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM/resolve/main/pytorch_model.bin?download=true
+    type: url
+    size: 26.6
