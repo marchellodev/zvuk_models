@@ -2,7 +2,7 @@ name: pyannote
 
 files:
   - destination: files/pyannote-segmentation-3.0.bin
-    source: https://huggingface.co/pyannote/segmentation-3.0/resolve/main/pytorch_model.bin?download=true
+    source: https://github.com/marchellodev/zvuk_models/raw/67846f822b9926bdf3552bcbe65cd366ff0420b7/pyannote/pyannote-segmentation-3.0.bin
     type: url
     size: 5.91
 
